@@ -1,14 +1,14 @@
 title: Dave Brimley
 description: Still a programming noob after 25 years.
 
-url: http://dbrimley.github.io
+url: http://davebrimley.com
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 markdown: redcarpet
 highlighter: pygments
-gems: [jekyll-paginate]
+gems: ["jekyll-paginate","jekyll-sitemap"]
 paginate: 5
 paginate_path: "page:num"
 
@@ -23,6 +23,6 @@ navigation:
 social:
    github: dbrimley
    twitter: dbrimley
-   email: dave.brimley@gmail.com
+   email: david@craftedbytes.com
 
 google_analytics: "UA-58263416-1"
