@@ -5,18 +5,10 @@ title: Contact Long Haul
 
 <div id="contact">
   <h1 class="pageTitle">Contact Me</h1>
-  <div class="contactContent">
-    <p class="intro">This is an example Contact page. If you want to make changes then do so in the <code>contact.html</code> file.</p>
-    <p>The form is provided by <a href="http://formspree.io/">Formspree.</a> Follow the directions on their site to set up the form for use.</p>
-    <p>If you have questions about the theme feel free to <a href="mailto:brimaidesigns@gmail.com">email me</a> or create an issue on <a href="https://github.com/brianmaierjr/long-haul">GitHub</a>. Enjoy!</p>
+  <div class="post">
+    <p class="intro">If you wish to contact me, feel free to 
+   <a href="mailto:dave.brimley@gmail.com">email me.</a> 
+   I am a freelance consultant, so I'm always interested to hear about new projects that I might help out on.  I can work short term or long term assignments and I usually like to have a handful of things on the go at one time.  I'm also a keen speaker and trainer, so if you need some guidance on your next IMDG or Distributed Systems project just drop me a line.
+   </p>
   </div>
-  <form action="http://formspree.io/your@mail.com" method="POST">
-    <label for="name">Name</label>    
-    <input type="text" id="name" name="name" class="full-width"><br>
-    <label for="email">Email Address</label>
-    <input type="email" id="email" name="_replyto" class="full-width"><br>
-    <label for="message">Message</label>
-    <textarea name="message" id="message" cols="30" rows="10" class="full-width"></textarea><br>
-    <input type="submit" value="Send" class="button">
-  </form>
 </div>

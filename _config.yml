@@ -1,14 +1,16 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Dave Brimley
+description: Still a programming noob after 25 years.
 
-url: http://brianmaierjr.github.com/long-haul
+url: http://dbrimley.github.io
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 markdown: redcarpet
 highlighter: pygments
+gems: [jekyll-paginate]
 paginate: 5
+paginate_path: "page:num"
 
 navigation:
  - title: Home
@@ -19,9 +21,8 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: dbrimley
+   twitter: dbrimley
+   email: dave.brimley@gmail.com
 
 google_analytics: "UA-58263416-1"
